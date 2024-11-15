@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Fictícia</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .header {
+            background-color: #1E90FF;
+            color: white;
+            text-align: left;
+            padding: 10px 20px;
+        }
+        .container {
+            background-color: #D3D3D3;
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+        }
+        .courses {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .course {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .course img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border: 2px solid black;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #1E90FF;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>ESCOLA FICTÍCIA</h1>
+    </div>
+    <div class="container">
+        <h2>CURSOS EM DESTAQUE</h2>
+        <div class="courses">
+            <div class="course">
+                <img src="imagem1.avif" alt="Imagem de logística">
+                <p>curso sobre logística</p>
+            </div>
+            <div class="course">
+                <img src="imagem2.jpg" alt="Imagem de marketing">
+                <p>curso sobre marketing</p>
+            </div>
+            <div class="course">
+                <img src="imagem3.jpg" alt="Imagem de finanças">
+                <p>curso sobre finanças</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Escola Fictícia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
